@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700,900&display=swap');
+
+.difficultCustomer {
+    // background: rgb(246, 91, 91);
+    // background: linear-gradient(203deg, rgba(246, 91, 91, 1) 0%, rgba(240, 127, 86, 1) 100%);
+    background-color: #FFE01B;
+    width: 100%;
+    font-family: "Source Sans Pro", Sans-serif;
+    margin: 0;
+    padding: 2% 10% 2% 10%;
+
+
+}
+
+.animation_left {
+    animation: animation_left 2.0s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes animation_left {
+    0% {
+        transform: translateX(-90%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.animation_right {
+    animation: animation_right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes animation_right {
+    0% {
+        transform: translateX(190%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.mentalResistance {
+    //   background: rgb(110, 61, 221);
+    //   background: linear-gradient(203deg, rgba(110, 61, 221, 1) 0%, rgba(137, 97, 240, 1) 100%);
+    background-color: #BE3C50;
+    // background-color: #FFE01B;
+    width: 100%;
+    margin: 0;
+    padding: 2% 10% 2% 10%;
+}
+
+.managerialCommunication {
+    background-color: #BE3C50;
+    // background-color: #FFE01B;
+    width: 100%;
+    margin: 0;
+    padding: 2% 10% 2% 10%;
+
+}
+
+.consultativeSales {
+    background-color: #FFE01B;
+    width: 100%;
+    font-family: "Source Sans Pro", Sans-serif;
+    margin: 0;
+    padding: 2% 10% 2% 10%;
+}
+
+.teamCommunication {
+    background-color: #FFE01B;
+    width: 100%;
+    font-family: "Source Sans Pro", Sans-serif;
+    margin: 0;
+    padding: 2% 10% 2% 10%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.offerHeader {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+    font-weight: 900;
+}
+
+.offerHeader__white {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+    font-weight: 900;
+    color: white;
+}
+
+.offerMainText {
+    font-size: 22px;
+    font-family: 'Vollkorn', serif;
+    margin: 0;
+}
+
+.offerMainText__white {
+    font-size: 22px;
+    font-family: 'Vollkorn', serif;
+    margin: 0;
+    color: white;
+}
+
+.offerBenefits {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    margin: 2% 0;
+}
+
+.offerBenefits__white {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Vollkorn', serif;
+    margin: 2% 0;
+    color: white;
+}
+
+
+.offerButton {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #840229;
+    border-radius: 39px 39px 39px 39px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 7px 6px 0px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
+.offerImg {
+    max-width: 45%;
+    float: left;
+    margin: 0 25px;
+}
+
+.offerImg2 {
+    max-width: 40%;
+    float: right;
+    margin: 0 25px;
+}

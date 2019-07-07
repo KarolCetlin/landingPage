@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700,900&display=swap');
+
+.form_wrapper {
+    font-family: "Montserrat", sans-serif;
+    background-color: #9CB8B3;
+    margin-top: 0 auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_img {
+    max-width: 30%;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #EFEDCE;
+
+}
+
+.form__form {
+    width: 50%;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .form__name {
+        line-height: 30px;
+        width: 40%;
+        padding-left: 2%;
+        border-bottom: 2px solid white;
+        margin-bottom: 15px;
+    }
+
+    .form__phone {
+        line-height: 30px;
+        margin-bottom: 15px;
+        padding-left: 2%;
+        flex-basis: 100%;
+        width: 40%;
+    }
+
+    .form__email {
+        line-height: 30px;
+        padding-left: 2%;
+        width: 40%;
+        margin-bottom: 15px;
+    }
+
+    .form__selector {
+        line-height: 30px;
+        margin-bottom: 15px;
+        font-weight: bold;
+
+    }
+
+    .form__rodo {
+        width: 40%;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+.form__message {
+    min-width: 70%;
+    min-height: 80%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.form__input {
+    margin-bottom: 15px;
+}
+
+
+.form__button {
+    font-size: 20px;
+    width: 30%;
+    background-color: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}

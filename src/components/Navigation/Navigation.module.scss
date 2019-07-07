@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700,900&display=swap');
+
+.mainMenu {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE01B;
+    height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.mainMenu__wrapper {
+    // display: grid;
+    // grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.mainMenu__item {
+    font-size: 24px;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.mainMenu__item:hover {
+    color: white;
+    font-weight: 900;
+
+}
+
+.br {
+    background-color: white;
+    font-size: 10px;
+
+}

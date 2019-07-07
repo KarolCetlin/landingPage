@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700,900&display=swap');
+
+.footerMenu {
+    background-color: #FFE01B;
+    height: 500px;
+}
+
+.footerMenu__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.navItemLink {
+    font-size: 25px;
+    color: #929292;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
