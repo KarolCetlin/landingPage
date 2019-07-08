@@ -16,7 +16,7 @@ class Slider extends React.Component {
 
     this.nextSlide = this.nextSlide.bind(this)
     this.prevSlide = this.prevSlide.bind(this)
-    this.handleDotsClick = this.handleDotsClick.bind(Dots)
+    this.handleDotsClick = this.handleDotsClick.bind(this)
   }
 
   componentDidMount() {
@@ -48,7 +48,7 @@ class Slider extends React.Component {
   }
 
   handleDotsClick(index) {
-    console.log(index)
+    this.setState({currentSlideIndex: index})
   }
 
   handleKeydown(key) {
